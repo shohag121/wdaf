@@ -1,0 +1,19 @@
+{
+    "name": "shohag/wdaf",
+    "description": "weDevs Applicant Form",
+    "type": "wordpress-plugin",
+    "license": "GPL-2-or-letter",
+    "authors": [
+        {
+            "name": "Shazahanul Islam Shohag",
+            "email": "shohag121@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shohag\\Applicant\\Form\\": "./inc"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
